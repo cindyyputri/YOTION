@@ -1,6 +1,15 @@
-/* <-----------------------------index, DetailPaket, dan DetailWisata-----------------------------------------------> */
+/* <-----------------------------Index, DetailPaket dan Detail Wisata-----------------------------------------------> */
 .custom-container {
-    margin-top: -15px; /* Adjust the value as necessary to move the container up */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.custom-container > *:not(.text-divider) {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .position-relative {
